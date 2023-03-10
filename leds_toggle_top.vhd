@@ -1,13 +1,13 @@
 ----------------------------------------------------------------------------------
 -- 
--- Engineer: Kishore Bachu
+-- Engineer: Kishore
 -- Date: 05-March-2023
 -- Title: leds_toggle_top (Top Module)
 -- 
 -- Inputs: SYS_CLK, SYS_RESET, LED_EN_L, LED_EN_R
 -- Outputs: LED[3:0]
 -- Parent : None
--- Child : slow_clock.vhd, led_toggle.vhd
+-- Child : slow_clock.vhd, led_toggle.vhd, push_button.vhd
 --
 ----------------------------------------------------------------------------------
 
