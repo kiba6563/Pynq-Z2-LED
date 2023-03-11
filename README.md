@@ -21,8 +21,6 @@ Sub modules: slow_clock.vhd, push_button.vhd, led_toggle.vhd
 Fig: LED toggling in LEFT
 <br />
 <br />
-<br />
-<br />
 ![gif_1678435109398](https://user-images.githubusercontent.com/127403893/224257826-68b08684-5e0f-471a-a691-7ae5fafcc718.gif)
 <br />
 Fig: LED toggling in RIGHT
