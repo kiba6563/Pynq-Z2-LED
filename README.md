@@ -11,6 +11,8 @@ Sub modules: slow_clock.vhd, push_button.vhd, led_toggle.vhd
 <br />
 <b>led_toggle.vhd:</b> Toggles on-board 4-LEDs in LEFT or RIGHT directions set by the on-board push buttons BTN1 and BTN2 respectively
 <br />
+<b>led_toggle_tb.vhd:</b> Test bench for simulation
+<br />
 
 ## Simulation
 ![WaveForm](https://user-images.githubusercontent.com/127403893/224462408-38ab37dd-d556-4b90-98b9-d5bd7e6befdc.JPG)
