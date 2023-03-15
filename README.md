@@ -13,6 +13,8 @@ Child modules: slow_clock.vhd, push_button.vhd, led_toggle.vhd
 <br />
 <i><b>led_toggle_tb.vhd:</b></i> Test bench for simulation
 <br />
+<i><b>leds_toggle.xdc:</b></i> Physical constraints
+<br />
 
 ## Tools
 Vivado 2022.2
