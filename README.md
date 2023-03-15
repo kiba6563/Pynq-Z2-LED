@@ -5,13 +5,13 @@ VHDL code to toggle on-board LEDs on PYNQ-Z2 FPGA board. Push button switches co
 Top module: leds_toggle_top.vhd
 Sub modules: slow_clock.vhd, push_button.vhd, led_toggle.vhd
 
-<b>slow_clock.vhd:</b> <i> Generates a slow clock of 1Hz from an on-board 125MHz. </i>
+<i><b>slow_clock.vhd:</b></i> Generates a slow clock of 1Hz with 50% duty cycle from an on-board 125MHz. 
 <br />
-<b>push_button.vhd:</b> Latches the push button value.
+<i><b>push_button.vhd:</b></i> Latches the push button value.
 <br />
-<b>led_toggle.vhd:</b> Toggles on-board 4-LEDs in LEFT or RIGHT directions set by the on-board push buttons BTN1 and BTN2 respectively
+<i><b>led_toggle.vhd:</b></i> Toggles on-board 4-LEDs in LEFT or RIGHT directions set by the on-board push buttons BTN1 and BTN2 respectively
 <br />
-<b>led_toggle_tb.vhd:</b> Test bench for simulation
+<i><b>led_toggle_tb.vhd:</b></i> Test bench for simulation
 <br />
 
 ## Simulation
