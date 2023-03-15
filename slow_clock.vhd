@@ -37,8 +37,10 @@ architecture Behavioral of slow_clock is
 
     signal  slow_clk_counter    :   std_logic_vector (27 downto 0); -- slow clock counter
     
-    -- clk_divider = SYS_CLK/desired freq. (1Hz) = 125000000
-    constant clk_divider        :   integer := 125000000;         --uncomment for FPGA implementation  
+    -- Constant for calculating the desired frequency.
+    -- clk_divider = (SYS_CLK / desired freq. * duty cycle) 
+    -- clk_divider (1Hz) = (125MHz / 1Hz * 50%) = 62500000
+    constant clk_divider        :   integer := 62500000;         --uncomment for FPGA implementation  
     --constant clk_divider        :   integer := 1;           --uncomment for simulation  
      
 begin
